@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-color: green;
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.to-do-app{
+    background-color: white;
+max-width: 540px;
+height: auto;
+padding: 30px;
+border-radius: 15px;
+}
+
+.Add-btn{
+    background-color:deepskyblue;
+    border-radius: 10px;
+    border-style: none;
+    width: 55px;
+    height: 23px;
+    color: white;
+    padding: auto 30px;
+    margin: 5px;
+    cursor: pointer;
+}
+.button{
+    border-style: none;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+.completed {
+    text-decoration: line-through;
+    background-color: rgb(234, 231, 231);
+    color: gray;
+  }
+  #clear_list{
+    background-color: brown;
+  }
+@media (max-width:1240px){
+    .to-do-app h2{
+        color: red;
+    }
+    #clear_list{
+        background-color:blue;
+        color: black;
+    }
+
+}
